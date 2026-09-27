@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://termotech.in/sitemap.xml

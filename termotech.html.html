@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Termotech — Software for Industrial & Energy Systems | Bengaluru</title>
+<meta name="description" content="Termotech is a software and digital engineering company building monitoring, IoT, predictive maintenance, and platform systems for manufacturing, energy, and industrial operators.">
+<meta name="keywords" content="Termotech, industrial software company, industrial IoT, predictive maintenance software, energy sector software, manufacturing software Bengaluru, SCADA integration, software company Bengaluru">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Termotech">
+<link rel="canonical" href="https://termotech.in/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Termotech">
+<meta property="og:title" content="Termotech — Software for Industrial & Energy Systems">
+<meta property="og:description" content="We design and ship software for manufacturers, utilities, and energy operators — from plant-floor monitoring to the platforms that manage it all.">
+<meta property="og:url" content="https://termotech.in/">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Termotech — Software for Industrial & Energy Systems">
+<meta name="twitter:description" content="Software and digital engineering for manufacturing, energy, and industrial operations.">
+
+<!-- Structured data: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Termotech",
+  "url": "https://termotech.in/",
+  "email": "info@termotech.in",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Embassy Manyata Business Park, Hebbal Outer Ring Road, Nagavara",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560045",
+    "addressCountry": "IN"
+  },
+  "description": "Software and digital engineering company building monitoring, IoT, predictive maintenance, and platform systems for industrial and energy operators.",
+  "industry": "Software Development"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E1613;
+    --surface:#152019;
+    --surface-2:#1B2822;
+    --text:#EEEAE1;
+    --muted:#8FA096;
+    --line:#2A362F;
+    --accent:#FF6A3D;
+    --accent-dim:#8B3A20;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: light){
+    :root:not([data-theme="dark"]){
+      --bg:#F3F1EC; --surface:#FFFFFF; --surface-2:#EAE7DF;
+      --text:#161A17; --muted:#5B6660; --line:#DAD5CB;
+      --accent:#D9481E; --accent-dim:#F2C2AE;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0E1613; --surface:#152019; --surface-2:#1B2822;
+    --text:#EEEAE1; --muted:#8FA096; --line:#2A362F;
+    --accent:#FF6A3D; --accent-dim:#8B3A20;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; scroll-padding-top:env(safe-area-inset-top,0px);}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Inter',system-ui,sans-serif;
+    font-size:16px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.wordmark{
+    font-family:'Big Shoulders Display',sans-serif;
+    font-weight:800;
+    letter-spacing:0.01em;
+    line-height:0.95;
+  }
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1100px; margin:0 auto; padding:0 24px;}
+  .row-scroll{overflow-x:auto;}
+
+  /* Header */
+  header{
+    position:sticky; top:0; top:env(safe-area-inset-top,0px);
+    z-index:20; background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:18px 24px;}
+  .wordmark{font-size:22px; font-weight:800;}
+  .wordmark span{color:var(--accent);}
+  .navlinks{display:flex; gap:32px; font-size:14px; color:var(--muted);}
+  .navlinks a:hover{color:var(--text);}
+  .navlinks{display:none;}
+  @media(min-width:760px){.navlinks{display:flex;}}
+  .btn{
+    display:inline-block; padding:11px 22px; border-radius:2px;
+    background:var(--accent); color:#100804; font-weight:600; font-size:14px;
+    font-family:'Inter'; border:1px solid var(--accent);
+  }
+  .btn:focus-visible, a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:3px;}
+  .btn-outline{
+    background:transparent; color:var(--text); border:1px solid var(--line);
+  }
+
+  /* Hero */
+  .hero{padding:88px 24px 64px; border-bottom:1px solid var(--line);}
+  .hero-eyebrow{color:var(--muted); font-size:14px; margin-bottom:18px; max-width:520px;}
+  .hero h1{font-size:clamp(42px,7.5vw,84px); max-width:880px;}
+  .hero h1 em{font-style:normal; color:var(--accent);}
+  .hero-sub{color:var(--muted); font-size:18px; max-width:520px; margin:26px 0 34px;}
+  .hero-cta{display:flex; gap:14px; flex-wrap:wrap;}
+
+  .hero-strip{
+    margin-top:64px; display:grid; grid-template-columns:repeat(2,1fr); gap:0;
+    border-top:1px solid var(--line);
+  }
+  @media(min-width:700px){.hero-strip{grid-template-columns:repeat(4,1fr);}}
+  .stat{padding:22px 20px; border-right:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat b{display:block; font-family:'Big Shoulders Display'; font-size:34px; color:var(--accent); font-weight:700;}
+  .stat span{color:var(--muted); font-size:13px;}
+
+  /* Section shell */
+  section{padding:72px 24px; border-bottom:1px solid var(--line);}
+  .sec-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:44px; flex-wrap:wrap;}
+  .sec-head h2{font-size:clamp(28px,4vw,44px);}
+  .sec-head p{color:var(--muted); max-width:360px; font-size:15px;}
+
+  /* Services */
+  .svc-list{border-top:1px solid var(--line);}
+  .svc-row{
+    display:grid; grid-template-columns:1fr; gap:6px;
+    padding:26px 0; border-bottom:1px solid var(--line);
+    align-items:baseline;
+  }
+  @media(min-width:700px){.svc-row{grid-template-columns:260px 1fr 120px; gap:24px;}}
+  .svc-row h3{font-size:24px; font-weight:700;}
+  .svc-row p{color:var(--muted); font-size:15px; max-width:480px;}
+  .svc-row .tag{color:var(--accent); font-size:13px; text-align:left;}
+  @media(min-width:700px){.svc-row .tag{text-align:right;}}
+
+  /* Industries */
+  .ind-grid{display:grid; grid-template-columns:1fr; gap:1px; background:var(--line); border:1px solid var(--line);}
+  @media(min-width:600px){.ind-grid{grid-template-columns:repeat(3,1fr);}}
+  .ind-cell{background:var(--surface); padding:28px 22px; min-height:150px; display:flex; flex-direction:column; justify-content:space-between;}
+  .ind-cell h3{font-size:20px; font-weight:700;}
+  .ind-cell p{color:var(--muted); font-size:14px; margin-top:10px;}
+
+  /* Approach */
+  .approach{display:grid; grid-template-columns:1fr; gap:36px;}
+  @media(min-width:800px){.approach{grid-template-columns:1fr 1fr;}}
+  .approach-copy h2{font-size:clamp(28px,4vw,44px); margin-bottom:18px;}
+  .approach-copy p{color:var(--muted); font-size:16px; max-width:440px;}
+  .approach-list{border-top:1px solid var(--line);}
+  .approach-item{padding:18px 0; border-bottom:1px solid var(--line); display:flex; gap:16px;}
+  .approach-item .n{color:var(--accent); font-family:'Big Shoulders Display'; font-weight:700; font-size:20px; width:28px;}
+  .approach-item h4{font-size:17px; margin-bottom:4px;}
+  .approach-item p{color:var(--muted); font-size:14px;}
+
+  /* CTA */
+  .cta{
+    background:var(--surface-2); text-align:left;
+  }
+  .cta h2{font-size:clamp(30px,5vw,56px); max-width:700px;}
+  .cta p{color:var(--muted); margin:18px 0 30px; max-width:460px;}
+
+  footer{padding:40px 24px calc(40px + env(safe-area-inset-bottom,0px));}
+  .foot-row{display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between; align-items:center; padding-bottom:24px; border-bottom:1px solid var(--line);}
+  .foot-links{display:flex; gap:22px; flex-wrap:wrap; color:var(--muted); font-size:14px;}
+  .foot-links a:hover{color:var(--text);}
+  .foot-bottom{padding-top:20px; display:flex; justify-content:space-between; color:var(--muted); font-size:13px; flex-wrap:wrap; gap:10px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav wrap" style="padding-left:0;padding-right:0;">
+    <div class="wordmark" style="display:flex; align-items:center; gap:12px;">
+      <span style="display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; background:var(--accent); color:#100804; font-family:'Big Shoulders Display'; font-weight:800; font-size:19px; border-radius:2px; letter-spacing:-0.02em;">TT</span>
+      <span style="font-family:'Inter'; font-weight:600; font-size:14px; color:var(--muted); letter-spacing:0.02em;">Termotech</span>
+    </div>
+    <nav class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn">Start a project</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="hero-eyebrow">Software & digital engineering for industrial and energy operations</div>
+      <h1>We build the systems that <em>keep things running</em> under pressure.</h1>
+      <p class="hero-sub">Termotech designs and ships software for manufacturers, utilities, and energy operators — from plant-floor monitoring to the platforms that manage it all.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn">Talk to our team</a>
+        <a href="#services" class="btn btn-outline">See what we build</a>
+      </div>
+      <div class="hero-strip">
+        <div class="stat"><b>11+</b><span>Years in industrial software</span></div>
+        <div class="stat"><b>140+</b><span>Systems shipped</span></div>
+        <div class="stat"><b>18</b><span>Countries served</span></div>
+        <div class="stat"><b>99.95%</b><span>Avg. platform uptime</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What we build</h2>
+        <p>Software that sits close to the equipment — and the platforms built on top of it.</p>
+      </div>
+      <div class="svc-list">
+        <div class="svc-row">
+          <h3>Industrial Monitoring & IoT</h3>
+          <p>Real-time dashboards and sensor pipelines for temperature, pressure, and load data across plants and sites.</p>
+          <div class="tag">Core</div>
+        </div>
+        <div class="svc-row">
+          <h3>Custom Software Development</h3>
+          <p>Line-of-business systems for maintenance, inventory, compliance, and field operations.</p>
+          <div class="tag">Core</div>
+        </div>
+        <div class="svc-row">
+          <h3>Predictive Maintenance & AI</h3>
+          <p>Models that flag equipment drift and failure risk before it becomes downtime.</p>
+          <div class="tag">AI/ML</div>
+        </div>
+        <div class="svc-row">
+          <h3>Cloud & Data Platforms</h3>
+          <p>Unified data infrastructure connecting SCADA, ERP, and site-level systems.</p>
+          <div class="tag">Platform</div>
+        </div>
+        <div class="svc-row">
+          <h3>Mobile Field Apps</h3>
+          <p>Offline-capable apps for technicians — inspections, work orders, and reporting from the field.</p>
+          <div class="tag">Mobile</div>
+        </div>
+        <div class="svc-row">
+          <h3>UI/UX for Technical Products</h3>
+          <p>Interfaces built for operators, not just admins — clear under alarm conditions, not just in demos.</p>
+          <div class="tag">Design</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="industries">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Who we work with</h2>
+        <p>Sectors where uptime and accuracy aren't optional.</p>
+      </div>
+      <div class="ind-grid">
+        <div class="ind-cell"><h3>Manufacturing</h3><p>Production monitoring & MES integration</p></div>
+        <div class="ind-cell"><h3>Energy & Utilities</h3><p>Grid, generation & consumption platforms</p></div>
+        <div class="ind-cell"><h3>HVAC & Building Systems</h3><p>Thermal performance & controls software</p></div>
+        <div class="ind-cell"><h3>Oil & Gas</h3><p>Remote asset monitoring at scale</p></div>
+        <div class="ind-cell"><h3>Logistics & Cold Chain</h3><p>Temperature-tracked fleet & storage</p></div>
+        <div class="ind-cell"><h3>Healthcare Facilities</h3><p>Environmental & equipment compliance</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="wrap approach">
+      <div class="approach-copy">
+        <h2>How we ship</h2>
+        <p>We work in small, senior teams embedded with yours — engineering, not just estimating.</p>
+      </div>
+      <div class="approach-list">
+        <div class="approach-item"><div class="n">01</div><div><h4>Scope on-site</h4><p>We start with the equipment and the workflow, not a template.</p></div></div>
+        <div class="approach-item"><div class="n">02</div><div><h4>Ship in weeks, not quarters</h4><p>Working software in front of operators early and often.</p></div></div>
+        <div class="approach-item"><div class="n">03</div><div><h4>Build for the floor</h4><p>Interfaces tested where they'll actually be used — loud, gloved, and under pressure.</p></div></div>
+        <div class="approach-item"><div class="n">04</div><div><h4>Stay on for the long run</h4><p>Support and iteration after go-live, not a handoff and goodbye.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap">
+      <h2>Tell us what's running hot.</h2>
+      <p>Send us a note about your systems and we'll get back within a business day.</p>
+      <div class="hero-cta">
+        <a href="mailto:info@termotech.in" class="btn">info@termotech.in</a>
+      </div>
+      <p style="margin-top:34px; color:var(--muted); font-size:14px; max-width:420px;">
+        Embassy Manyata Business Park, Hebbal Outer Ring Road, Nagavara, Bengaluru, Karnataka – 560045
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <div class="wordmark" style="display:flex; align-items:center; gap:12px;">
+        <span style="display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; background:var(--accent); color:#100804; font-family:'Big Shoulders Display'; font-weight:800; font-size:16px; border-radius:2px; letter-spacing:-0.02em;">TT</span>
+        <span style="font-family:'Inter'; font-weight:600; font-size:13px; color:var(--muted); letter-spacing:0.02em;">Termotech</span>
+      </div>
+      <div class="foot-links">
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="wrap foot-bottom" style="padding:0;">
+      <span>© 2026 Termotech. All rights reserved.</span>
+      <span>Embassy Manyata Business Park, Bengaluru</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
